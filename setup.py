@@ -16,6 +16,6 @@ setup(
         'pynome=pynome.__main__:main',
     ]},
     install_requires=[
-        'flask_sqlalchemy', 'mandrill>=1.0.57', 'alembic', 'flask_login',
+        'flask', 'flask_sqlalchemy', 'mandrill>=1.0.57', 'alembic', 'flask_login',
         'wtforms_alchemy'
     ])
